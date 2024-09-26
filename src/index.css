@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: satoshi;
+    src: url(assets/Satoshi-Regular.otf);
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #222128e7 ;
+    border-radius: 20px;
+}
